@@ -1,0 +1,13 @@
+body {
+  font-family: "Poppins";
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  margin: auto;
+  padding: 1em 2em;
+  max-width: 600px;
+}
