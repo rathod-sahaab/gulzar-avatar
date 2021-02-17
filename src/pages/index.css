@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Poppins:wght@400;700&display=swap');
 body {
   font-family: "Poppins";
 }
 
 h1 {
   text-align: center;
+  color: #f50057;
 }
 
 .content {
