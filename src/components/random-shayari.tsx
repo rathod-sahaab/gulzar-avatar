@@ -2,9 +2,8 @@ import React, { useState } from "react"
 
 import "./random-shayari.css"
 
-import Button from "@material-ui/core/Button"
+import { Button } from "@chakra-ui/react"
 import random_shayari from "../utils/random-shayari"
-
 
 const RandomShayari = () => {
   const [shayari, setShayari] = useState(random_shayari())
@@ -12,8 +11,8 @@ const RandomShayari = () => {
     <div className="random-shayari">
       <div style={{ textAlign: `center` }}>
         <Button
-          variant="outlined"
-          color="secondary"
+          variant="solid"
+          mt={4}
           onClick={() => {
             setShayari(random_shayari())
           }}
