@@ -1,8 +1,7 @@
 import React, { useState } from "react"
 
-import "./random-shayari.css"
+import * as styles from "./random-shayari.module.css"
 
-import { Button } from "@chakra-ui/react"
 import random_shayari from "../utils/random-shayari"
 
 const RandomShayari = () => {
@@ -10,17 +9,16 @@ const RandomShayari = () => {
   return (
     <div className="random-shayari">
       <div style={{ textAlign: `center` }}>
-        <Button
-          variant="solid"
-          mt={4}
+        <button
+          className={styles.button}
           onClick={() => {
             setShayari(random_shayari())
           }}
         >
           Generate shayari
-        </Button>
+        </button>
       </div>
-      <div className="shayari">
+      <div className={styles.shayari}>
         <p dangerouslySetInnerHTML={{ __html: shayari }}></p>
       </div>
     </div>

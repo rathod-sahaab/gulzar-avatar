@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gulzar-avatar",
   siteMetadata: {
     title: `Gulzar avatar`,
     description: `Make gulzarish shayaris for your loved ones, IYKWIM`,
@@ -6,6 +7,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

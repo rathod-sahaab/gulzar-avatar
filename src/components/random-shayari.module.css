@@ -1,0 +1,14 @@
+.button {
+  display: inline-block;
+  background-color: #eeeeee;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0.6em 1.5em;
+  border-radius: 0.5em;
+  border: none;
+}
+.shayari {
+  font-size: 36px;
+  font-family: Satisfy, cursive;
+  text-align: center;
+}
